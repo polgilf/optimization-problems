@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.windows": {
+      "PYTHONPATH": "C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio2211\\cplex\\python\\3.10\\x64_win64"
+    }
+  }

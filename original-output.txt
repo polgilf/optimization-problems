@@ -1,0 +1,89 @@
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_Read_DataCheck                          1
+Tried aggregator 2 times.
+MIP Presolve eliminated 17 rows and 5 columns.
+MIP Presolve added 6 rows and 6 columns.
+Aggregator did 8 substitutions.
+Reduced MIP has 21 rows, 32 columns, and 68 nonzeros.
+Reduced MIP has 0 binaries, 32 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.07 ticks)
+Found incumbent of value 320800.000000 after 0.00 sec. (0.18 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 6 rows and 6 columns.
+MIP Presolve added 6 rows and 6 columns.
+Reduced MIP has 21 rows, 32 columns, and 68 nonzeros.
+Reduced MIP has 0 binaries, 32 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.04 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.05 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       320800.0000        0.0000           100.00%
+*     0+    0                       320665.0000        0.0000           100.00%
+      0     0    76775.0000     8   320665.0000    76775.0000        7   76.06%
+*     0+    0                        77425.0000    76775.0000             0.84%
+*     0+    0                        77320.0000    76775.0000             0.70%
+*     0     0      integral     0    76840.0000    76840.0000        8    0.00%
+Elapsed time = 0.00 sec. (0.43 ticks, tree = 0.01 MB, solutions = 5)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.44 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.44 ticks)
+
+*** SOLVE STATUS ***
+
+integer optimal solution
+
+*** REPORT ***
+
+* model workforce scheduling solved with objective = 76840.000
+None
+
+*** RESULTS ***
+
+Total cost: 76840.0
+Workforce at the beginning of each bimester:
+W[1] = 130.0
+W[2] = 113.0
+W[3] = 133.0
+W[4] = 153.0
+W[5] = 173.0
+W[6] = 192.0
+Workforce hired at the beginning of each bimester:
+WH[1] = 0
+WH[2] = 0
+WH[3] = 20.0
+WH[4] = 20.0
+WH[5] = 20.0
+WH[6] = 19.0
+Workforce fired at the beginning of each bimester:
+WF[1] = 20.0
+WF[2] = 17.0
+WF[3] = 0
+WF[4] = 0
+WF[5] = 0
+WF[6] = 0
+Production normal hours at each bimester:
+PN[1] = 5200.0
+PN[2] = 4520.0
+PN[3] = 5320.0
+PN[4] = 6120.0
+PN[5] = 6920.0
+PN[6] = 7680.0
+Production overtime hours at each bimester:
+PE[1] = 0
+PE[2] = 0
+PE[3] = 0
+PE[4] = 0
+PE[5] = 20.0
+PE[6] = 20.0

@@ -1,0 +1,66 @@
+
+#################################
+###-------- Results --------###
+#################################
+
+#----------------------------------#
+Name: flowshop-is-p6
+Solver: PULP_CBC_CMD
+
+#----------------------------------#
+REPORT:
+name: flowshop-is-p6
+solver: PULP_CBC_CMD
+objective: s_(5,_3)
+num_variables: 48
+num_constraints: 48
+solutionTime: 0.25116539001464844
+solutionCpuTime: 0.25
+status: 1
+sol_status: 1
+noOverlap: 1
+
+#----------------------------------#
+RESULTS:
+
+#----------------------------------#
+Order:
+  jobname
+1     TTL
+2       P
+3     TTC
+4       C
+5      MM
+#----------------------------------#
+Schedule:
+              end_time
+(1, A1, TTL)       2.0
+(1, A2, TTL)      10.0
+(1, A3, TTL)      13.0
+(2, A1, P)         6.0
+(2, A2, P)        12.0
+(2, A3, P)        20.0
+(3, A1, TTC)      12.0
+(3, A2, TTC)      22.0
+(3, A3, TTC)      26.0
+(4, A1, C)        18.0
+(4, A2, C)        26.0
+(4, A3, C)        31.0
+(5, A1, MM)       23.0
+(5, A2, MM)       29.0
+(5, A3, MM)       35.0
+#----------------------------------#
+Log:
+Result - Optimal solution found
+
+Objective value:                35.00000000
+Enumerated nodes:               0
+Total iterations:               1190
+Time (CPU seconds):             0.20
+Time (Wallclock seconds):       0.20
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.23   (Wallclock seconds):       0.23
+
+
+#----------------------------------#
